@@ -1,5 +1,5 @@
-#getwd()
-setwd("C:/Users/Ricky/Desktop/hub_turkr-master/mechanical_turk_R/test")
+working_directory<-getwd()
+setwd(working_directory)
 
 #install the required packages needed. MTurkR is used for Mechanical Turk. 
 #data.table is used for row bind list function used later in the program
